@@ -3,6 +3,5 @@
 **whitespace**
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+	var that = this;
 ```
