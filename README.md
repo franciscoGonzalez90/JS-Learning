@@ -8,6 +8,7 @@
 
 ```javascript
 	var that = this;
+	//var rm=/a*/.match('s'); 
 ```
 
 > 
