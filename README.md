@@ -19,9 +19,6 @@
 **Names**
 
 > No se debe utilizar ninguna de estas palabras reservadas
-> los nombres solo deben ser usados por bloques, parametros,
-> nombres de propiedades, operadores y etiquetas. 
-
 
 ```javascript
 	abstract
@@ -41,4 +38,13 @@
 	var volatile void
 	while with
 	undefined NaN Infinity
+```
+
+
+> Los nombres solo deben ser usados por bloques, parametros,
+> nombres de propiedades, operadores y etiquetas.
+
+```javascript
+	var _variable1;
+	var l;
 ```
