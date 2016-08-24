@@ -2,4 +2,6 @@
 
 **whitespace**
 
-> ```var that = this;´´´
+> ``` javascript
+>  that = this;
+> ´´´
