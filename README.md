@@ -1,6 +1,6 @@
 ## Material de JS
 
-** Whitespace **
+**Whitespace**
 
 > El espaciado en blanco entre var y that no puede ser eliminado.
 
@@ -16,7 +16,7 @@
 ```
 
 
-** Names **
+**Names**
 
 > No se debe utilizar ninguna de estas palabras reservadas
 > los nombres solo deben ser usados por bloques, parametros,
