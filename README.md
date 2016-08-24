@@ -1,4 +1,4 @@
-## Material de JS
+## Apuntes de JavaScript
 
 **Whitespace**
 
