@@ -46,5 +46,5 @@
 
 ```javascript
 	var _variable1;
-	var l;
+	var otraVariable;
 ```
