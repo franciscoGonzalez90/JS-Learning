@@ -18,7 +18,7 @@
 
 **Names**
 
-> No se debe utilizar ninguna de estas palabras reservadas
+> No se  debe utilizar ninguna de estas palabras reservadas
 
 ```javascript
 	abstract
