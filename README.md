@@ -47,4 +47,5 @@
 ```javascript
 	var _variable1;
 	var otraVariable;
+	var Mi_variable_custom;
 ```
