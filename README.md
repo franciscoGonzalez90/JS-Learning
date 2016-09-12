@@ -1,4 +1,4 @@
-## Apuntes de JavaScript
+## Wiki de JavaScript
 
 **Whitespace**
 
@@ -102,9 +102,9 @@
 
 > if(expression){block;}else{block;}
 
-> Falsy values: false, null, undefined, empty string(''), number 0 the number NaN.
+> valores falsos: false, null, undefined, empty string(''), number 0 the number NaN.
 
-> Truthy values, include true, the string 'false' and all objects.
+> valores verdaderos: include, true, the string 'false' and all objects.
 
 ```javascript
 		if(true)
@@ -115,4 +115,139 @@
 		{
 		    console.log('false');
 		}
+```
+
+
+**Statments - SWITCH**
+
+>  switch(expression){case clause:statments;break; default: statments;}
+
+```javascript
+		switch('hi')
+		{
+        	case 'hi': console.log('say hi');
+        	default: console.log('say bye');
+        }
+```
+
+
+**Statments - WHILE**
+
+> while(expression){statments;};
+
+> Si la expression es verdadera se ejecuta el statments, si es falso no se ejecuta.
+
+```javascript
+			var h=0;
+        			
+        	while(h < 5){
+        		console.log("while verdadero");
+        		h++;
+        	};
+```
+
+
+**Statments - FOR**
+
+> Existen 2 tipos de for (for-forIn)
+
+```javascript
+			var obj=[{nombre:'francisco',apellido:'gonzalez'},{nombre:'cristina',apellido:'caro'}];
+			
+			for (var i = 0; i < 5; i++)
+			 {
+            	console.log('for normal');
+            };
+            
+            for(o in  obj)
+            {
+            	console.log(obj[o].nombre+' '+obj[o].apellido);
+            };
+           
+```
+
+
+**Statments - DO WHILE**
+
+> El bloque siempre es ejecuta al menos una vez.
+
+```javascript
+    	var incrementos=0;
+    	
+    	do{
+    		incrementos++;	
+    		console.log('do while');
+    	}while(incrementos < 5);
+```
+
+
+** Statments - Try**
+
+> try{block;}catch(variable name);
+
+> El statment try ejecuta un bloque y atrapa alguna excepcion que
+> fue lanzada por el bloque. catch define  una nueva variable que 
+> recive el objeto excepcion.
+
+
+**Statments - THROW**
+
+> Invoca una excepcion.
+
+> Si esta dentro de una clausula try se envia directamente al catch , el cual retorna una mensaje.
+
+> El objeto  que retorna entrega el name y el message property.
+
+```javascript
+    	var x=NaN;
+        
+        try
+        {
+         if(isNaN(x)) throw "Es NaN";
+         
+        }catch(e)
+        {
+        	console.log(e);
+        };	
+```
+
+**Statments - Return**
+
+> Especifica el valor que va a ser retornado.
+
+> Si el valor return no esta especificado este se define por defecto como undefined.
+
+```javascript
+    	if(true)
+    	{
+    		console.log('antes del return');
+    		 return; 
+    	}
+        //esta funcion no se muestra debido a que se lanza un return
+    	console.log('despues del return');	
+```
+
+
+**Statments - Delete**
+
+> Elimina una propiedad de un objeto.
+
+> Las variables no pueden ser borradas.
+
+```javascript
+    	 _objeto=[
+        	{nombre:'francisco',apellido:'gonzalez'},
+        	{nombre:'cristina',apellido:'caro'}
+        ];
+        
+        for(ob in _objeto)
+        {
+        	console.log(_objeto[ob].nombre);
+        }
+        
+        delete _objeto[0];
+        
+        for(ob in _objeto){
+        	console.log(_objeto[ob]);
+        }
 ```
