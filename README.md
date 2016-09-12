@@ -181,7 +181,7 @@
 ```
 
 
-** Statments - Try**
+**Statments - Try**
 
 > try{block;}catch(variable name);
 
