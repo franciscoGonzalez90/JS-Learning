@@ -53,7 +53,9 @@
 **Numbers**
 
 > NaN es un valor numerico que no puede ser comparado con otro valor ni con el mismo, si no que con la funcion isNaN(number).
+
 > Infinity es el valor que se utiliza para reprensentar valores mas grandes que 1.79769313486231570e+308.
+
 > Number tiene metodos como la libreria Math.floor(number) que es utilizado para convertir numeros en interger.
 
 ```javascript
@@ -69,6 +71,9 @@
 **Strings**
 
 > Un string puede estar conformado por ''(comillas simples) o ""(comillas dobles).
+
 > El \(backslash) es un caracter de escape.
+
 > Una vez que un string esta hecho no se puede desarmar pero si se puede concatenar mas valores con el signo "+".
+
 > Concatenar palabras 'c'+'a'+'t' === 'cat'.
