@@ -186,7 +186,9 @@
 > try{block;}catch(variable name);
 
 > El statment try ejecuta un bloque y atrapa alguna excepcion que
-> fue lanzada por el bloque. catch define  una nueva variable que 
+> fue lanzada por el bloque. 
+
+>catch define  una nueva variable que 
 > recive el objeto excepcion.
 
 
