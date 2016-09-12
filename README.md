@@ -76,4 +76,43 @@
 
 > Una vez que un string esta hecho no se puede desarmar pero si se puede concatenar mas valores con el signo "+".
 
-> Concatenar palabras 'c'+'a'+'t' === 'cat'.
+> Concatenar palabras 'c'+'a'+'t' === 'cat'(TRUE).
+
+```javascript
+		console.log("\u0041");
+    	console.log(("\u0041").length);
+    	console.log("CAT".toLowerCase());	
+```
+
+
+**Statments**
+
+> Cuando un statments esta dentro de una funcion este pasa a ser una variable privada.
+
+> Statments tienden a ser ejecutadas en orden desde arriba hacia abajo.
+
+> Las varibles deben estar definidas al comienzo, no en los bloques.
+
+```javascript
+		var variable = "asignacion";
+```
+
+
+**Statments - IF**
+
+> if(expression){block;}else{block;}
+
+> Falsy values: false, null, undefined, empty string(''), number 0 the number NaN.
+
+> Truthy values, include true, the string 'false' and all objects.
+
+```javascript
+		if(true)
+		{
+		    console.log('its true');
+		}
+		else
+		{
+		    console.log('false');
+		}
+```
