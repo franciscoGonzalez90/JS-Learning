@@ -62,7 +62,6 @@
 		var a=5;
     	var b=2.4;
     	var c=0.1e+2;
-    
     	console.log(c);
     	console.log(Math.floor(2.2));
 ```
